@@ -1,0 +1,71 @@
+html{
+  text-align: center;
+  background-image: url(../images/dist/icon.png);
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center -20px;
+  background-attachment: fixed;
+}
+
+body{
+  margin: 0;
+}
+
+.head2{
+
+  background-color: rgba(0, 0, 255, 0.4);
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+.headline{
+    color: black;
+    background-color: transparent;
+    border: solid 5px;
+    border-color: transparent;
+
+    font-size: 100px;
+    font-family: sans-serif;
+
+    margin: 10px 400px 0px 400px;
+}
+
+.nav{
+  text-decoration: none;
+  color: black;
+  border: solid 5px;
+  background-color: transparent;
+
+  font-size: 30px;
+  font-family: fantasy;
+
+  margin-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.nav:hover{
+  color: red;
+  border-color: black;
+}
+
+.thema{
+  font-size: 50px;
+  font-family: sans-serif;
+  color: black;
+}
+
+.gallery{
+  margin: 10px 50px;
+}
+
+.gallery img{
+  transition: 1s;
+  padding: 15px;
+  width: 300px;
+}
+
+.gallery img:hover{
+  filter: grayscale(100%);
+  transform: scale(1.1);
+}
